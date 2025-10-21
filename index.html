@@ -1,13 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Proyecto final</title>
+    <link src="stylesheet" href="index.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <div class="grid-container"></div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const container = document.querySelector(".grid-container");
+        const marcas = ["Alfa", "Beta", "Gamma", "Delta", "Epsilon"];
+
+        for (let i = 1; i <= 25; i++) {
+          const item = document.createElement("div");
+          item.className = "grid-item";
+
+          const nombre = `Producto ${i}`;
+          const precio = (Math.random() * 100 + 10).toFixed(2);
+          const marca = marcas[i % 5];
+
+          item.innerHTML = `
+                    <p><strong>Nombre:</strong> ${nombre}</p>
+                    <p><strong>Precio:</strong> \$${precio}</p>
+                    <p><strong>Marca:</strong> ${marca}</p>
+                `;
+          container.appendChild(item);
+        }
+      });
+    </script>
   </body>
 </html>

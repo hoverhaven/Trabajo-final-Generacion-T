@@ -1,0 +1,16 @@
+.navbar {
+  background-color:rgb(48, 46, 46); 
+  padding: 10px 20px; 
+    display: flex; 
+  justify-content: flex-start; 
+  gap: 20px; 
+}
+
+.navbar a {
+  color: white; 
+  font-size: 18px; 
+}
+
+.navbar a:hover {
+  color: lightblue; 
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "id": 0,
+    "nombre": "Lápiz grafito HB",
+    "marca": "Faber-Castell 9000",
+    "puntaje": 9,
+    "precio": "US$1-2",
+    "notas": "Línea profesional, gran consistencia en durezas. Marca alemana."
+  },
+  {
+    "id": 1,
+    "nombre": "Lápiz grafito 6B-8B",
+    "marca": "Staedtler Mars Lumograph",
+    "puntaje": 9,
+    "precio": "US$2-3",
+    "notas": "Grafito oscuro de alta calidad. Marca alemana."
+  },
+  {
+    "id": 2,
+    "nombre": "Lápices de colores",
+    "marca": "Prismacolor Premier Soft Core",
+    "puntaje": 10,
+    "precio": "US$50-70 (set 72)",
+    "notas": "Muy pigmentados, excelente para ilustración. Marca estadounidense."
+  },
+  {
+    "id": 3,
+    "nombre": "Acuarelas pastilla",
+    "marca": "Winsor & Newton Cotman",
+    "puntaje": 7,
+    "precio": "US$20-35 (12 colores)",
+    "notas": "Línea estudiante/intermedia. Marca inglesa."
+  },
+  {
+    "id": 4,
+    "nombre": "Óleos en tubo",
+    "marca": "Winsor & Newton Artists’ Oil Colours",
+    "puntaje": 10,
+    "precio": "US$30-60 por tubo",
+    "notas": "Pigmentos profesionales, excelente cobertura."
+  },
+  {
+    "id": 5,
+    "nombre": "Carbón comprimido",
+    "marca": "General’s / genérico",
+    "puntaje": 6,
+    "precio": "US$15-30 (set)",
+    "notas": "Versátil para luces y sombras. Calidad variable según fabricante."
+  },
+  {
+    "id": 6,
+    "nombre": "Papel de dibujo/boceto",
+    "marca": "Canson / Bristol",
+    "puntaje": 8,
+    "precio": "US$10-25 (bloc A4)",
+    "notas": "Buen gramaje y textura. Marca francesa reconocida."
+  },
+  {
+    "id": 7,
+    "nombre": "Papel acuarela",
+    "marca": "Arches Cold Press 300gsm",
+    "puntaje": 10,
+    "precio": "US$25-45",
+    "notas": "Papel de algodón de gran calidad. Marca francesa."
+  },
+  {
+    "id": 8,
+    "nombre": "Pasteles al óleo",
+    "marca": "Sennelier / Rembrandt",
+    "puntaje": 9,
+    "precio": "US$3-7 por barra",
+    "notas": "Textura cremosa, pigmentos intensos."
+  },
+  {
+    "id": 9,
+    "nombre": "Pasteles suaves",
+    "marca": "Sennelier Soft Pastel / Rembrandt",
+    "puntaje": 9,
+    "precio": "US$3-6 por barra",
+    "notas": "Muy pigmentados, fáciles de difuminar."
+  },
+  {
+    "id": 10,
+    "nombre": "Marcadores a base de alcohol",
+    "marca": "Copic Sketch",
+    "puntaje": 10,
+    "precio": "US$6-8 cada uno",
+    "notas": "Los más usados en manga e ilustración. Marca japonesa."
+  },
+  {
+    "id": 11,
+    "nombre": "Marcadores acuarelables",
+    "marca": "Tombow Dual Brush Pen",
+    "puntaje": 8,
+    "precio": "US$3-5 cada uno",
+    "notas": "Versátiles para lettering e ilustración. Marca japonesa."
+  },
+  {
+    "id": 12,
+    "nombre": "Goma amasable",
+    "marca": "Faber-Castell / Staedtler",
+    "puntaje": 8,
+    "precio": "US$2-5",
+    "notas": "Ideal para grafito y carbón. No daña el papel."
+  },
+  {
+    "id": 13,
+    "nombre": "Sacapuntas de precisión",
+    "marca": "Staedtler / Faber-Castell / Prismacolor",
+    "puntaje": 9,
+    "precio": "US$5-15",
+    "notas": "Mantiene puntas finas, no quiebra minas."
+  },
+  {
+    "id": 14,
+    "nombre": "Tiza pastel seca",
+    "marca": "Genérico / local",
+    "puntaje": 6,
+    "precio": "US$10-25 (set 24)",
+    "notas": "Textura seca, requiere fijador."
+  },
+  {
+    "id": 15,
+    "nombre": "Lápiz acuarelable",
+    "marca": "Faber-Castell Albrecht Dürer / Derwent",
+    "puntaje": 9,
+    "precio": "US$2-4 cada uno",
+    "notas": "Se usan secos o con agua. Muy versátiles."
+  },
+  {
+    "id": 16,
+    "nombre": "Tinta para dibujo",
+    "marca": "Winsor & Newton Ink / Rohrer & Klingner",
+    "puntaje": 9,
+    "precio": "US$10-20 por frasco",
+    "notas": "Tinta india de alta calidad para entintado."
+  },
+  {
+    "id": 17,
+    "nombre": "Pinceles artísticos",
+    "marca": "da Vinci / Escoda / Winsor & Newton",
+    "puntaje": 9,
+    "precio": "US$15-40 cada uno",
+    "notas": "Alta durabilidad, precisión en la punta."
+  },
+  {
+    "id": 18,
+    "nombre": "Regla y compás técnico",
+    "marca": "Staedtler / Rotring",
+    "puntaje": 8,
+    "precio": "US$10-30",
+    "notas": "Herramientas de precisión para dibujo técnico."
+  },
+  {
+    "id": 19,
+    "nombre": "Lienzo entelado",
+    "marca": "Fredrix / Winsor & Newton Canvas",
+    "puntaje": 8,
+    "precio": "US$15-40",
+    "notas": "Bastidores bien tensados y preparados con gesso."
+  },
+  {
+    "id": 20,
+    "nombre": "Pintura acrílica",
+    "marca": "Liquitex / Golden",
+    "puntaje": 10,
+    "precio": "US$15-30 por tubo",
+    "notas": "Alta pigmentación y cobertura. Ideal para profesionales."
+  },
+  {
+    "id": 21,
+    "nombre": "Gesso imprimador",
+    "marca": "Winsor & Newton / Liquitex",
+    "puntaje": 8,
+    "precio": "US$10-25 por pote",
+    "notas": "Preparación de superficies para pintar."
+  },
+  {
+    "id": 22,
+    "nombre": "Fijador en spray",
+    "marca": "Krylon / genérico artístico",
+    "puntaje": 7,
+    "precio": "US$8-20",
+    "notas": "Protege dibujos en pastel o carbón."
+  },
+  {
+    "id": 23,
+    "nombre": "Papel Bristol",
+    "marca": "Canson Bristol / Strathmore",
+    "puntaje": 8,
+    "precio": "US$8-20",
+    "notas": "Muy usado para tinta y marcadores."
+  },
+  {
+    "id": 24,
+    "nombre": "Difumino / tortillón",
+    "marca": "Genérico",
+    "puntaje": 6,
+    "precio": "US$1-4 cada uno",
+    "notas": "Suaviza grafito y carbón. Accesorio económico."
+  }
+]
