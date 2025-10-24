@@ -5,32 +5,209 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Proyecto final</title>
-    <link src="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div class="grid-container"></div>
+    <script></script>
+    <header class="header">
+      <div class="logo">
+        <img src="logo.png" alt="logo de la marca" />
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Elementos</a></li>
+          <li><a href="#">Busqueda de elementos</a></li>
+          <li><a href="#">Acerca de nosotros</a></li>
+        </ul>
+      </nav>
+      <a href="" class="btn"><button>Contact</button></a>
+    </header>
+    <h1 class="titulo">Los elemento de nuestra web son:</h1>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const container = document.querySelector(".grid-container");
-        const marcas = ["Alfa", "Beta", "Gamma", "Delta", "Epsilon"];
-
-        for (let i = 1; i <= 25; i++) {
-          const item = document.createElement("div");
-          item.className = "grid-item";
-
-          const nombre = `Producto ${i}`;
-          const precio = (Math.random() * 100 + 10).toFixed(2);
-          const marca = marcas[i % 5];
-
-          item.innerHTML = `
-                    <p><strong>Nombre:</strong> ${nombre}</p>
-                    <p><strong>Precio:</strong> \$${precio}</p>
-                    <p><strong>Marca:</strong> ${marca}</p>
-                `;
-          container.appendChild(item);
-        }
-      });
-    </script>
-  </body>
+    <div class="contenedor-grid">
+      <div class="celda">
+        <img src="lapiz-grafito-hb.png" alt="" class="imagenes">
+        <h3>nombre: Lápiz grafito HB</h3>
+        <p>marca: Faber-Castell 9000</p>
+        <p>puntaje: 9</p>
+        <p>precio: US$1-2</p>
+      </div>
+      <div class="celda">
+        <img src="lapiz-grafito6bsb.png" alt="" class="imagenes">
+        <h3>nombre: Lápiz grafito 6B-8B</h3>
+        <p>marca: Staedtler Mars Lumograph</p>
+        <p>puntaje: 9,</p>
+        <p>precio: US$2-3,</p>
+      </div>
+      <div class="celda">
+        <img src="lapices-de-colores.jpeg" alt="" class="imagenes">
+        <h3>nombre: Lápices de colores</h3>
+        <p>marca: Prismacolor Premier Soft Core</p>
+        <p>puntaje: 10</p>
+        <p>precio: US$50-70</p>
+      </div>
+      <div class="celda">
+        <img src="acuarelas-en-pastilla.webp" alt="" class="imagenes">
+        <h3>nombre: acuarelas en pastilla</h3>
+        <p>marca: Winsor & Newton Cotman</p>
+        <p>puntaje: 7</p>
+        <p>precio: US$20-35 (12 colores)</p>
+      </div>
+      <div class="celda">
+        <img src="oleos-en-tubo.webp" alt="" class="imagenes">
+        <h3>nombre: Óleos en tubo</h3>
+        <p>marca: Winsor & Newton Artists Oil Colours</p>
+        <p>puntaje: 10</p>
+        <p>precio: US$30-60 por tubo</p>
+      </div>
+      <div class="celda">
+        <img src="Carbon-comprimido-generals.jpeg" alt="" class="imagenes">
+        <h3>nombre: Carbón comprimido</h3>
+        <p>marca: Generals</p>
+        <p>puntaje: 6</p>
+        <p>precio: US$15-30</p>
+      </div>
+      <div class="celda">
+        <img src="papel-dibujo-boceto.jpeg" alt="" class="imagenes">
+        <h3>nombre: Papel de dibujo/boceto</h3>
+        <p>marca: Canson / Bristol</p>
+        <p>puntaje: 8</p>
+        <p>precio: US$10-25</p>
+      </div>
+      <div class="celda">
+        <img src="papel-acuarela.jpeg" alt="" class="imagenes">
+        <h3>nombre: Papel acuarela</h3>
+        <p>marca: Arches Cold Press</p>
+        <p>puntaje: 10</p>
+        <p>precio: US$25-45</p>
+      </div>
+      <div class="celda">
+        <img src="pasteles al oleo.jpeg" alt="" class="imagenes">
+        <h3>nombre: Pasteles al óleo</h3>
+        <p>marca: Sennelier / Rembrandt</p>
+        <p>puntaje: 9</p>
+        <p>precio: US$3-7 por barra</p>
+      </div>
+      <div class="celda">
+        <img src="pasteles suaves.jpeg" alt="" class="imagenes">
+        <h3>nombre: Pasteles suaves</h3>
+        <p>marca: Sennelier Soft Pastel / Rembrandt</p>
+        <p>puntaje: 9</p>
+        <p>precio: US$3-6 por barra</p>
+      </div>
+      <div class="celda">
+        <img src="marcadores a base de alcohol.jpeg" alt="" class="imagenes">
+        <h3>nombre: Marcadores a base de alcohol</h3>
+        <p>marca: Copic Sketch</p>
+        <p>puntaje: 10</p>
+        <p>precio: US$6-8 cada uno</p>
+      </div>
+      <div class="celda">
+        <img src="marcadores acuerables.jpeg" alt="" class="imagenes">
+        <h3>nombre: Marcadores acuarelables</h3>
+        <p>marca: Tombow Dual Brush Pen</p>
+        <p>puntaje: 8</p>
+        <p>precio: US$3-5 cada uno</p>
+      </div>
+      <div class="celda">
+        <img src="goma amasable.jpeg" alt="" class="imagenes">
+        <h3>nombre: Goma amasable</h3>
+        <p>marca: Faber-Castell / Staedtler</p>
+        <p>puntaje: 8</p>
+        <p>precio: US$2-5</p>
+      </div>
+      <div class="celda">
+        <img src="sacapuntas de precision.jpeg" alt="" class="imagenes">
+        <h3>nombre: Sacapuntas de precisión</h3>
+        <p>marca: Staedtler / Faber-Castell / Prismacolor</p>
+        <p>puntaje: 9</p>
+        <p>precio: US$5-15</p>
+      </div>
+      <div class="celda">
+        <img src="Tiza pastel seca.jpeg" alt="" class="imagenes">
+        <h3>nombre: Tiza pastel seca</h3>
+        <p>marca: Genérico / local</p>
+        <p>puntaje: 6</p>
+        <p>precio: US$10-25 (set 24)</p>
+      </div>
+      <div class="celda">
+        <img src="lapiz acuerable.jpeg" alt="" class="imagenes">
+        <h3>nombre: Lápiz acuarelable</h3>
+        <p>marca: Faber-Castell Albrecht Dürer / Derwent</p>
+        <p>puntaje: 9</p>
+        <p>precio": US$2-4 cada uno</p>
+      </div>
+      <div class="celda">
+        <img src="tinta para dibujo.jpeg" alt="" class="imagenes">
+        <h3>nombre: Tinta para dibujo</h3>
+        <p>marca: Winsor & Newton Ink / Rohrer & Klingner</p>
+        <p>puntaje: 9</p>
+        <p>precio: US$10-20 por frasco</p>
+      </div>
+      <div class="celda">
+        <img src="pinceles artisticos.jpeg" alt="" class="imagenes">
+        <h3>nombre: Pinceles artísticos</h3>
+        <p>marca: da Vinci / Escoda / Winsor & Newton</p>
+        <p>puntaje: 9</p>
+        <p>precio: US$15-40 cada uno</p>
+      </div>
+      <div class="celda">
+        <img src="regla y compas tecnico.jpeg" alt="" class="imagenes">
+        <h3>nombre: Regla y compás técnico</h3>
+        <p>marca: Staedtler / Rotring</p>
+        <p>puntaje: 8</p>
+        <p>precio: US$10-30</p>
+      </div>
+      <div class="celda">
+        <img src="lienzo entelado.jpeg" alt="" class="imagenes">
+        <h3>nombre: Lienzo entelado</h3>
+        <p>marca: Fredrix / Winsor & Newton Canvas</p>
+        <p>puntaje: 8</p>
+        <p>precio: US$15-40</p>
+      </div>
+      <div class="celda">
+        <img src="pintura acrilica.jpeg" alt="" class="imagenes">
+        <h3>nombre: Pintura acrílica</h3>
+        <p>marca: Liquitex / Golden</p>
+        <p>puntaje: 10</p>
+        <p>precio: US$15-30 por tubo</p>
+      </div>
+      <div class="celda">
+        <img src="gesso imprimador.jpeg" alt="" class="imagenes">
+        <h3>nombre: Gesso imprimador</h3>
+        <p>marca: Winsor & Newton / Liquitex</p>
+        <p>puntaje: 8</p>
+        <p>precio: US$10-25 por pote</p>
+      </div>
+      <div class="celda">
+        <img src="fijador en spray.jpeg" alt="" class="imagenes">
+        <h3>nombre: Fijador en spray</h3>
+        <p>marca: Krylon / genérico artístico</p>
+        <p>puntaje: 7</p>
+        <p>precio: US$8-20</p>
+      </div>
+      <div class="celda">
+        <img src="papel bristol.jpeg" alt="" class="imagenes">
+        <h3>nombre: Papel Bristol</h3>
+        <p>marca: Canson Bristol / Strathmore</p>
+        <p>puntaje: 8</p>
+        <p>precio: US$8-20</p>
+      </div>
+      <div class="celda">
+        <img src="difuminio.jpeg" alt="" class="imagenes">
+        <h3>nombre: Difumino / tortillón</h3>
+        <p>marca: Genérico</p>
+        <p>puntaje: 6</p>
+        <p>precio: US$1-4 cada uno</p>
+      </div>
+    </div>
+    <aside class="footer">
+      <h2>Campora Renzo y Bracamonte Julian 2025 Alumnos de Generacion T- Stage1.
+        Todos los derechos reservados
+      </h2>
+      
+      
+    </aside>
+   
+   </body>
 </html>
